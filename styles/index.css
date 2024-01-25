@@ -69,6 +69,7 @@ header {
   min-height: 70px;
   color: #fff;
   box-shadow: 0 0 10px #8fabffbf;
+  position: sticky;
 }
 
 header .container {
@@ -110,7 +111,8 @@ header .container img {
 /* Start Intro */
 
 .intro {
-  margin: 35px 0;
+  background-color: #fff;
+  box-shadow: 0 15px 11px #f3f3f3;
 }
 
 .intro .container {
@@ -195,3 +197,34 @@ header .container img {
 }
 
 /* End Intro */
+
+/* Start Showcase */
+
+.showcase {
+  margin-top: 70px;
+}
+
+.showcase .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.showcase .showcase-analysis {
+  text-align: center;
+}
+
+.showcase .showcase-analysis h1 {
+  color: var(--secondary-color);
+  font-size: 75px;
+}
+
+.showcase .showcase-analysis p {
+  color: #6e6e6e;
+  font-size: 15px;
+  font-weight: 300;
+  max-width: 300px;
+  line-height: 1.5;
+}
+
+/* End Showcase */
