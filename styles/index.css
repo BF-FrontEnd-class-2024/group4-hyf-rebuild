@@ -62,11 +62,13 @@ a {
 
 /* End Global Rules */
 
+/* Start Header */
+
 header {
   background-color: var(--primary-color);
   min-height: 70px;
   color: #fff;
-  box-shadow: 0 0 12px #cecccc;
+  box-shadow: 0 0 10px #8fabffbf;
 }
 
 header .container {
@@ -102,3 +104,94 @@ header .container img {
   justify-content: center;
   align-items: center;
 }
+
+/* End Header */
+
+/* Start Intro */
+
+.intro {
+  margin: 35px 0;
+}
+
+.intro .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro .intro-img {
+  max-width: 600px;
+}
+
+.intro .intro-img img {
+  width: 100%;
+  position: relative;
+  animation-name: up-and-down;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.intro .intro-text h1 {
+  color: #454545;
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+
+.intro .intro-text span {
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+.intro .intro-text p {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  color: #6e6e6e;
+}
+
+.intro .intro-text a {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 15px 35px;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.intro .intro-text a:hover {
+  box-shadow: 0 0 10px #1c3fa8bf;
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+
+@keyframes up-and-down {
+  0% {
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+  }
+}
+
+/* End Intro */
