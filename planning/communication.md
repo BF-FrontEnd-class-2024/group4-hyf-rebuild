@@ -9,36 +9,41 @@
 ## Communication Schedule
 
 | Day | How | The topic of discussion |
-| --- | :-: | ----------------------- |
-|     |     |                         |
+
+| Thu | phy | Creeate project planning |
+
+| fra |zoom | Coding |
 
 ## Communication Channels
 
 how often will we get in touch on each channel, and what we will discuss there:
 
-- **Issues**:
-- **Pull Requests**:
-- **GitHub Discussions**
-- **Slack/Discord**:
-- **Video Calls**:
-
----
+- **Issues** : All day
+- **Pull Requests** : End of Task
+- **GitHub Discussions** :End of Task
+- **Slack/Discord** : All day
+- **Video Calls** : When required
 
 ## Availability
 
 ### Availability for calling/messaging
 
-| Day    | Monday  | Tuesday | Wednesday | Thursday | Friday  | Saturday | Sunday  |
-| ------ | :-----: | :-----: | :-------: | :------: | :-----: | :------: | :-----: |
-| _name_ | 13 - 20 | 13 - 20 |  13 - 20  | 13 - 20  | 13 - 20 | 13 - 20  | 13 - 20 |
+|Day |Thursday| Friday |
+
+| Rodica | 9-17h | 9-17h |
+
+| Sowmya | 9-17h | 9-17h |
+
+|Ahmad | 9-17h | 9-17h |
+
+|Samuel | 9-17h | 9-17h |
 
 ### How many hours everyone has per day
 
-- name: _5h_; extra comments?
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- Rodika: _6h_;
+- Sowmya: _6h_;
+- Ahmad: _6h_;
+- Samuel: _6h_;
 
 ## Asking for Help
 
