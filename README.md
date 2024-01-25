@@ -1,10 +1,11 @@
-# Name of project
+# Hack-Your-Future Website Rebuild
 
-> A longer description
+This project was about us recreating the Hack-Your-Future website as best as we
+can.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Hack-Your-Future](HYF Project)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
@@ -22,43 +23,38 @@
 
 ## General info
 
-> A short description
+HackYourFuture is a not-for-profit coding school for people with limited access
+to education and the labor market.
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./planning/wireframe.png)
 
 ## Technologies
 
-- Node 14.16.0
 - VSC code
-- JavaScript
-- ...
-- ...
+- HTML
+- CSS
 
 ## Setup
 
-- `npm run start`
+- Clone the Repo
+- `npm run install`
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```Html
+<h1>HYF</h1>//
 ```
 
 ## Features
 
 List of features ready and Todos for future development
 
--
--
--
-
-To-do list:
-
--
--
+- Title
+- Navigation
+- Subscribe to Our Newsletter
+- Contact form
 
 ## Status
 
@@ -70,7 +66,13 @@ Project by freeCodeCamp.org
 
 ## Contact
 
-By [Name]
+- [Samuel](https://github.com/xamwell2)
+
+- [Ahmad](https://github.com/ahmadissa99)
+
+- [Rodica](https://github.com/rodicailciuc)
+
+- [Sowmya](https://github.com/SowmyaPuttaswamygowda)
 
 ## Instructions for use
 
