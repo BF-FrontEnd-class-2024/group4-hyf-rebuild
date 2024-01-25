@@ -31,7 +31,8 @@
     "Rodica",
     "Rodika",
     "Creeate",
-    "Rodica"
+    "Rodica",
+    "infocard"
   ],
   "ignorePaths": [
     "node_modules/**",
