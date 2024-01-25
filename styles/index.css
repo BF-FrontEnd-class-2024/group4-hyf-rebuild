@@ -227,4 +227,95 @@ header .container img {
   line-height: 1.5;
 }
 
+.showcase-info {
+  margin-top: 70px;
+}
+
+.showcase-info h1 {
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 50px;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.showcase-info h1::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 10%;
+  height: 3px;
+  background-color: var(--secondary-color);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}
+
+.showcase-info .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcase-info .showcase-infocard {
+  background-color: #fff;
+  box-shadow: 0 15px 11px #f3f3f3;
+  margin: 0 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.showcase-info .showcase-infocard:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  box-shadow: 0 11px 17px #8fabff57;
+}
+
+.showcase-info .showcase-infocard:hover img {
+  filter: grayscale(60%);
+  -webkit-filter: grayscale(60%);
+}
+
+.showcase-info .showcase-infocard img {
+  width: 328px;
+  height: 302px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.showcase-info .showcase-info-text p {
+  margin: 15px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #6e6e6e;
+  line-height: 1.5;
+  word-spacing: 3px;
+}
+
+.showcase-info .showcase-info-text h3 {
+  color: var(--secondary-color);
+  font-size: 25px;
+  margin: 15px;
+}
+
 /* End Showcase */
