@@ -36,14 +36,15 @@
     "Kroemer",
     "Meirlaen",
     "Lizhen",
-    "Cartella"
+    "Cartella",
     "infocard",
     "Dror",
     "Zeynep",
     "Hanim",
     "Edouardo",
     "testi",
-    "Tervueren"
+    "Tervueren",
+    "Cartella"
   ],
   "ignorePaths": [
     "node_modules/**",

@@ -113,5 +113,40 @@
   },
 
   // Enable/disable update table of contents on save
-  "markdown.extension.toc.updateOnSave": false
+  "markdown.extension.toc.updateOnSave": false,
+  "cSpell.words": [
+    "Bilde",
+    "Careershifter",
+    "Cartella",
+    "Christiaan",
+    "Creeate",
+    "Dror",
+    "Edouardo",
+    "Excalidraw",
+    "Globalcoder",
+    "globle",
+    "Hanim",
+    "Hassan",
+    "infocard",
+    "Kroemer",
+    "Lant",
+    "Lizhen",
+    "Lucie",
+    "Meirlaen",
+    "Nepo",
+    "Ponomarev",
+    "posotive",
+    "Rodica",
+    "Rodika",
+    "Sowmya",
+    "Tervueren",
+    "testi",
+    "Todos",
+    "Verwijs",
+    "wireframe",
+    "Wireframes",
+    "Yodiz",
+    "Zepel",
+    "Zeynep"
+  ]
 }
