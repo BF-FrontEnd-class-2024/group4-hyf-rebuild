@@ -550,3 +550,103 @@ header .container img {
 .join-us .join-us-opt:hover i {
   display: block;
 }
+
+.footer {
+  margin-top: 70px;
+  background-color: var(--secondary-color);
+  padding: 40px 0;
+}
+
+.footer input {
+  margin-bottom: 15px;
+  width: 400px;
+  padding: 7px 10px;
+  outline: none;
+  border: none;
+  background-color: #ffffff2e;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer .container h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.footer .contact-us form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .social-pages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .social-pages i {
+  margin-bottom: 15px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.footer label {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.footer button {
+  cursor: pointer;
+  color: var(--secondary-color);
+  background-color: #fff;
+  border: none;
+  outline: none;
+  width: fit-content;
+  margin-top: 20px;
+  font-size: 15px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.footer textarea {
+  height: 150px;
+  padding: 5px;
+  background-color: #ffffff2e;
+  outline: none;
+  border: none;
+  resize: none;
+}
+
+.footer-info .location {
+  margin-bottom: 15px;
+}
+
+.footer-info .location i,
+.footer-info .mail i {
+  color: #fff;
+  margin-right: 8px;
+}
+
+.footer-info .location p,
+.footer-info .mail a {
+  color: #fff;
+  font-weight: 300;
+}
