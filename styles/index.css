@@ -227,11 +227,13 @@ header .container img {
   line-height: 1.5;
 }
 
-.showcase-info {
+.showcase-info,
+.showcase-partners {
   margin-top: 70px;
 }
 
-.showcase-info h1 {
+.showcase-info h1,
+.showcase-partners h1 {
   text-align: center;
   color: var(--secondary-color);
   font-size: 50px;
@@ -240,7 +242,8 @@ header .container img {
   margin-bottom: 50px;
 }
 
-.showcase-info h1::before {
+.showcase-info h1::before,
+.showcase-partners h1::before {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -316,6 +319,32 @@ header .container img {
   color: var(--secondary-color);
   font-size: 25px;
   margin: 15px;
+}
+
+.showcase-partners .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.showcase-partners img {
+  width: 150px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.showcase-partners img:hover {
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
 }
 
 /* End Showcase */
