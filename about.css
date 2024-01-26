@@ -240,3 +240,65 @@ a {
   color: #0077b5;
   align-content: center;
 }
+
+.join-us {
+  margin-top: 200px;
+}
+
+.join-us .container {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 30px;
+  text-align: center;
+}
+
+.join-us .join-us-opt {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.join-us .join-us-opt h1 {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 40px;
+  color: var(--secondary-color);
+}
+
+.join-us .join-us-opt p {
+  line-height: 1.4;
+  font-size: 15px;
+  font-weight: 300;
+  color: rgb(110, 110, 110);
+  margin-bottom: 35px;
+}
+
+.join-us .join-us-opt i {
+  font-size: 40px;
+  color: var(--secondary-color);
+  cursor: pointer;
+  display: none;
+}
+
+.join-us .join-us-opt:hover {
+  background-color: #1c3fa8;
+}
+
+.join-us .join-us-opt:hover h1,
+.join-us .join-us-opt:hover p,
+.join-us .join-us-opt:hover i {
+  color: #fff;
+}
+
+.join-us .join-us-opt:hover i {
+  display: block;
+}

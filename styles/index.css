@@ -515,16 +515,6 @@ header .container img {
   -o-border-radius: 10px;
 }
 
-.join-us .join-us-opt:hover {
-  background-color: #1c3fa8;
-}
-
-.join-us .join-us-opt:hover h1,
-.join-us .join-us-opt:hover p,
-.join-us .join-us-opt:hover i {
-  color: #fff;
-}
-
 .join-us .join-us-opt h1 {
   margin-bottom: 15px;
   font-weight: 400;
@@ -545,6 +535,16 @@ header .container img {
   color: var(--secondary-color);
   cursor: pointer;
   display: none;
+}
+
+.join-us .join-us-opt:hover {
+  background-color: #1c3fa8;
+}
+
+.join-us .join-us-opt:hover h1,
+.join-us .join-us-opt:hover p,
+.join-us .join-us-opt:hover i {
+  color: #fff;
 }
 
 .join-us .join-us-opt:hover i {
