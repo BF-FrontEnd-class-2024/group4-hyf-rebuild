@@ -495,7 +495,7 @@ header .container img {
 
 .join-us .container {
   display: grid;
-  grid-template-columns: repeat(3, 300px);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   text-align: center;
 }
