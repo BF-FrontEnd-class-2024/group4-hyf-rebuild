@@ -28,7 +28,7 @@ to education and the labor market.
 
 ## Screenshots
 
-![Example screenshot](./planning/wireframe.png)
+![Example screenshot](./imgs/update.png)
 
 ## Technologies
 
