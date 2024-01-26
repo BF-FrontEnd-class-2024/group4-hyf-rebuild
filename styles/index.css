@@ -229,7 +229,8 @@ header .container img {
 
 .showcase-info,
 .showcase-partners,
-.showcase-testimonials {
+.showcase-testimonials,
+.subscribe {
   margin-top: 70px;
 }
 
@@ -246,7 +247,8 @@ header .container img {
 
 .showcase-info h1::before,
 .showcase-partners h1::before,
-.showcase-testimonials h1::before {
+.showcase-testimonials h1::before,
+.subscribe h1::before {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -411,3 +413,78 @@ header .container img {
 }
 
 /* End Showcase */
+
+.subscribe h1 {
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 20px;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.subscribe form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.subscribe input {
+  margin-bottom: 20px;
+  padding: 15px 0;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #6e6e6e;
+}
+
+.subscribe input:focus {
+  border-color: var(--secondary-color);
+}
+
+.subscribe input:focus::placeholder {
+  color: var(--secondary-color);
+}
+
+.subscribe label {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.subscribe button {
+  padding: 20px 25px;
+  width: fit-content;
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  border: none;
+  background-color: var(--secondary-color);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.subscribe button:hover {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
