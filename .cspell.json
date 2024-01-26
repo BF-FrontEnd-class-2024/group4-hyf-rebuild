@@ -36,7 +36,8 @@
     "Dror",
     "Zeynep",
     "Hanim",
-    "Edouardo"
+    "Edouardo",
+    "testi"
   ],
   "ignorePaths": [
     "node_modules/**",

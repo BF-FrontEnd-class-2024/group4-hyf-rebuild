@@ -228,12 +228,14 @@ header .container img {
 }
 
 .showcase-info,
-.showcase-partners {
+.showcase-partners,
+.showcase-testimonials {
   margin-top: 70px;
 }
 
 .showcase-info h1,
-.showcase-partners h1 {
+.showcase-partners h1,
+.showcase-testimonials h1 {
   text-align: center;
   color: var(--secondary-color);
   font-size: 50px;
@@ -243,7 +245,8 @@ header .container img {
 }
 
 .showcase-info h1::before,
-.showcase-partners h1::before {
+.showcase-partners h1::before,
+.showcase-testimonials h1::before {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -345,6 +348,66 @@ header .container img {
   -moz-transform: rotate(10deg);
   -ms-transform: rotate(10deg);
   -o-transform: rotate(10deg);
+}
+
+.showcase-testimonials .test-info {
+  background-color: #eeeeee30;
+  padding: 20px;
+}
+
+.showcase-testimonials .test-info p {
+  font-size: 15px;
+  font-weight: 300;
+  color: rgb(110, 110, 110);
+  line-height: 1.5;
+}
+
+.showcase-testimonials .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+
+.showcase-testimonials .container-special {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 15px;
+}
+
+.showcase-testimonials .test-info img {
+  width: 100px;
+  margin: 10px 0;
+}
+
+.showcase-testimonials .testi-person .profile {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.showcase-testimonials .testi-person img {
+  width: 48px;
+  height: 48px;
+  margin: 10px 0;
+}
+
+.showcase-testimonials .testi-person h3 {
+  color: var(--secondary-color);
+}
+
+.showcase-testimonials .testi-person p {
+  font-weight: 300;
+  color: rgb(110, 110, 110);
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.showcase-testimonials .container-special .img-spe {
+  width: 40px;
+  height: 30px;
 }
 
 /* End Showcase */
