@@ -45,7 +45,7 @@
     "priviledged",
     "Goyvaerts",
     "Suport",
-    "Tervueren"
+    "Tervueren",
     "Lucie",
     "Kroemer",
     "Meirlaen",
@@ -58,7 +58,8 @@
     "Edouardo",
     "testi",
     "Tervueren",
-    "Cartella"
+    "Cartella",
+    "stylelint"
   ],
   "ignorePaths": [
     "node_modules/**",
